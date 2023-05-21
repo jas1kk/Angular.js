@@ -1,0 +1,9 @@
+<h1>{{ count$ | async }}</h1>
+
+<div class="container">
+  <button class="btn" (click)="increase()">+</button>
+  <button class="btn" (click)="decrease()" [disabled]="cannotDecrease$ | async">-</button>
+  <button class="btn" (click)="clear()" [disabled]="cannotDecrease$ | async">Clear</button>
+</div>
+
+<p *ngIf="updatedAt$ | async"> Обновление {{updatedAt$ | async | date: "HH:mm:ss dd.MM.yyyy"}}</p>
