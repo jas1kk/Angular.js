@@ -1,0 +1,50 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 500px;
+}
+
+.checkbox {
+  margin-right: 5px;
+}
+
+.btn {
+  margin: 2px;
+  padding: 10px;
+  background-color: #0078d4;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #005a9e;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+.task-text {
+  flex: 1;
+  margin-left: 10px;
+}
+
+.delete-btn {
+  color: #a80000;
+  cursor: pointer;
+}

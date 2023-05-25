@@ -1,0 +1,27 @@
+*{
+    font-size: 20px;
+  }
+  
+  .task{
+    margin-left: 5px;
+    margin-right: 10px;
+  }
+  
+  .task-link {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #333;
+    text-align: center;
+    line-height: 30px;
+    margin-right: 5px;
+    font-family: "Arial", sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+  }
+  
+  .task-link:hover {
+    color: #ff0000;
+    text-decoration: underline;
+  }
